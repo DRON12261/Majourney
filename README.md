@@ -6,4 +6,4 @@ Majourney - игра в жанре песочница, вдохновленна�
 https://drive.google.com/drive/folders/1_RpgiLTpv9i4y9DGP530k7r-umfhybPe?usp=sharing
 
 Скриншот (фейковый):
-![Alt-текст](https://ibb.co/q12hbFW "Фейкшот Majourney")
+![Фейкшот Majourney](https://i.ibb.co/124BHJd/Screen-Mokup1280x720.png "Фейкшот Majourney")
