@@ -16,11 +16,10 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="States" />
+					<Add directory="Entities" />
 				</Compiler>
 				<Linker>
-					<Add option="-static-libstdc++" />
-					<Add option="-static-libgcc" />
-					<Add option="-static" />
 					<Add library="sfml-graphics-d" />
 					<Add library="sfml-window-d" />
 					<Add library="sfml-audio-d" />
@@ -37,6 +36,8 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="States" />
+					<Add directory="Entities" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -59,11 +60,15 @@
 		<Linker>
 			<Add directory="../SFML-2.5.1/lib" />
 		</Linker>
+		<Unit filename="Entities/Entity.cpp" />
+		<Unit filename="Entities/Entity.h" />
+		<Unit filename="States/GameState.cpp" />
+		<Unit filename="States/GameState.h" />
+		<Unit filename="States/State.cpp" />
+		<Unit filename="States/State.h" />
 		<Unit filename="include/Game.h" />
-		<Unit filename="include/State.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/State.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
