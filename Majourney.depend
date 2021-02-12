@@ -1,6 +1,6 @@
 # depslib dependency file v1.0
-1612698580 source:c:\projects\codeblocks projects\majourney\main.cpp
-	<SFML/Graphics.hpp>
+1613123550 source:c:\projects\codeblocks projects\majourney\main.cpp
+	<Game.h>
 
 1612695997 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -410,4 +410,228 @@
 	<SFML/Graphics/PrimitiveType.hpp>
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
+
+1613130971 c:\projects\codeblocks projects\majourney\include\game.h
+	<GameState.h>
+
+1612695997 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundfilefactory.inl
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1612695998 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1612695997 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network.hpp
+	<SFML/System.hpp>
+	<SFML/Network/Ftp.hpp>
+	<SFML/Network/Http.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/Packet.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/Network/SocketSelector.hpp>
+	<SFML/Network/TcpListener.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/Network/UdpSocket.hpp>
+
+1612695999 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\ftp.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1612695999 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\export.hpp
+	<SFML/Config.hpp>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\tcpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/System/Time.hpp>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\socket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/SocketHandle.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<vector>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\sockethandle.hpp
+	<SFML/Config.hpp>
+	<basetsd.h>
+
+1612695999 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\http.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<SFML/Network/TcpSocket.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<map>
+	<string>
+
+1612695999 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\ipaddress.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+	<istream>
+	<ostream>
+	<string>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\packet.hpp
+	<SFML/Network/Export.hpp>
+	<string>
+	<vector>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\socketselector.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\tcplistener.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/IpAddress.hpp>
+
+1612696000 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\network\udpsocket.hpp
+	<SFML/Network/Export.hpp>
+	<SFML/Network/Socket.hpp>
+	<SFML/Network/IpAddress.hpp>
+	<vector>
+
+1613130457 source:c:\projects\codeblocks projects\majourney\src\game.cpp
+	"Game.h"
+
+1613126286 c:\projects\codeblocks projects\majourney\include\state.h
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1613125074 source:c:\projects\codeblocks projects\majourney\src\state.cpp
+	"State.h"
+
+1613130363 c:\projects\codeblocks projects\majourney\states\gamestate.h
+	<State.h>
+
+1613130321 c:\projects\codeblocks projects\majourney\states\state.h
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	<vector>
+	<stack>
+	<map>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1613130500 source:c:\projects\codeblocks projects\majourney\states\state.cpp
+	"State.h"
+
+1613130416 source:c:\projects\codeblocks projects\majourney\states\gamestate.cpp
+	"GameState.h"
 
