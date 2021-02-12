@@ -2,9 +2,14 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    sf::RenderWindow window(sf::VideoMode(1280, 720), "Majourney");
+    sf::Texture texture;
+    if (!texture.loadFromFile("Sprites\\Char.png", sf::IntRect(0, 0, 32, 32))){
+        window.setTitle("ERROR");
+    }
+    sf::Sprite sprite;
+    sprite.setTexture(texture);
+    sprite.setScale(2.f, 2.f);
 
     while (window.isOpen())
     {
@@ -16,7 +21,7 @@ int main()
         }
 
         window.clear();
-        window.draw(shape);
+        window.draw(sprite);
         window.display();
     }
 
