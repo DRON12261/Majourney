@@ -18,6 +18,7 @@
 					<Add directory="include" />
 					<Add directory="States" />
 					<Add directory="Entities" />
+					<Add directory="UI" />
 				</Compiler>
 				<Linker>
 					<Add library="sfml-graphics-d" />
@@ -30,6 +31,7 @@
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Majourney" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -38,6 +40,7 @@
 					<Add directory="include" />
 					<Add directory="States" />
 					<Add directory="Entities" />
+					<Add directory="UI" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -64,8 +67,12 @@
 		<Unit filename="Entities/Entity.h" />
 		<Unit filename="States/GameState.cpp" />
 		<Unit filename="States/GameState.h" />
+		<Unit filename="States/MainMenuState.cpp" />
+		<Unit filename="States/MainMenuState.h" />
 		<Unit filename="States/State.cpp" />
 		<Unit filename="States/State.h" />
+		<Unit filename="UI/Button.cpp" />
+		<Unit filename="UI/Button.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Game.cpp" />

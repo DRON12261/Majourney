@@ -18,7 +18,7 @@ void GameState::initKeybinds()
     ifs.close();
 }
 
-GameState::GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys) : State(window, supportedKeys)
+GameState::GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states) : State(window, supportedKeys, states)
 {
     this->initKeybinds();
 }
@@ -58,6 +58,7 @@ void GameState::updateKeybinds(const float& dt)
 
 void GameState::update(const float& dt)
 {
+    this->updateMousePositions();
     this->updateKeybinds(dt);
 
     this->player.update(dt);
