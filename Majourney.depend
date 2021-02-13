@@ -411,7 +411,7 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1613195915 c:\projects\codeblocks projects\majourney\include\game.h
+1613223695 c:\projects\codeblocks projects\majourney\include\game.h
 	<MainMenuState.h>
 
 1612695997 c:\projects\codeblocks projects\sfml-2.5.1\include\sfml\audio.hpp
@@ -593,7 +593,7 @@
 	<SFML/Network/IpAddress.hpp>
 	<vector>
 
-1613204498 source:c:\projects\codeblocks projects\majourney\src\game.cpp
+1613223755 source:c:\projects\codeblocks projects\majourney\src\game.cpp
 	"Game.h"
 
 1613126286 c:\projects\codeblocks projects\majourney\include\state.h
@@ -611,19 +611,19 @@
 1613125074 source:c:\projects\codeblocks projects\majourney\src\state.cpp
 	"State.h"
 
-1613204068 c:\projects\codeblocks projects\majourney\states\gamestate.h
+1613229042 c:\projects\codeblocks projects\majourney\states\gamestate.h
 	<State.h>
 
-1613201706 c:\projects\codeblocks projects\majourney\states\state.h
-	<Entity.h>
+1613229011 c:\projects\codeblocks projects\majourney\states\state.h
+	<Player.h>
 
-1613205049 source:c:\projects\codeblocks projects\majourney\states\state.cpp
+1613225894 source:c:\projects\codeblocks projects\majourney\states\state.cpp
 	"State.h"
 
-1613204063 source:c:\projects\codeblocks projects\majourney\states\gamestate.cpp
+1613225940 source:c:\projects\codeblocks projects\majourney\states\gamestate.cpp
 	"GameState.h"
 
-1613195911 c:\projects\codeblocks projects\majourney\entities\entity.h
+1613228171 c:\projects\codeblocks projects\majourney\entities\entity.h
 	<iostream>
 	<cmath>
 	<cstdlib>
@@ -632,16 +632,17 @@
 	<vector>
 	<stack>
 	<map>
+	<stddef.h>
 	<SFML/System.hpp>
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<SFML/Network.hpp>
 
-1613148704 source:c:\projects\codeblocks projects\majourney\entities\entity.cpp
+1613229429 source:c:\projects\codeblocks projects\majourney\entities\entity.cpp
 	"Entity.h"
 
-1613201750 c:\projects\codeblocks projects\majourney\states\mainmenustate.h
+1613225995 c:\projects\codeblocks projects\majourney\states\mainmenustate.h
 	<GameState.h>
 	<Button.h>
 
@@ -651,7 +652,7 @@
 1613199150 source:c:\projects\codeblocks projects\majourney\ui\button.cpp
 	"Button.h"
 
-1613204125 source:c:\projects\codeblocks projects\majourney\states\mainmenustate.cpp
+1613225960 source:c:\projects\codeblocks projects\majourney\states\mainmenustate.cpp
 	"MainMenuState.h"
 
 1613192345 c:\projects\codeblocks projects\majourney\/ui\button.h
@@ -676,4 +677,10 @@
 	<MainMenuState.h>
 	<Entity.h>
 	<Button.h>
+
+1613229247 c:\projects\codeblocks projects\majourney\entities\player.h
+	<Entity.h>
+
+1613228346 source:c:\projects\codeblocks projects\majourney\entities\player.cpp
+	"Player.h"
 

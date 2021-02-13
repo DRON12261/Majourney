@@ -3,26 +3,43 @@
 //Static functions
 
 //Initializer functions
+void Game::initVariables()
+{
+    this->window = NULL;
+    this->fullscreen = false;
+
+    this->dt = 0.f;
+}
+
 void Game::initWindow()
 {
     std::ifstream ifs("Config/window.ini");
+    this->videoModes = sf::VideoMode::getFullscreenModes();
 
     std::string title = "None";
-    sf::VideoMode windowBounds(1280, 720);
+    sf::VideoMode windowBounds = sf::VideoMode::getDesktopMode();
+    this->fullscreen = false;
     unsigned framerateLimit = 120;
     bool vertSyncEnabled = false;
+    unsigned antialiasingLevel = 0;
 
     if (ifs.is_open())
     {
         std::getline(ifs, title);
         ifs >> windowBounds.width >> windowBounds.height;
+        ifs >> this->fullscreen;
         ifs >> framerateLimit;
         ifs >> vertSyncEnabled;
+        ifs >> antialiasingLevel;
     }
 
     ifs.close();
 
-    this->window = new sf::RenderWindow(windowBounds, title);
+    this->windowSettings.antialiasingLevel = antialiasingLevel;
+    if (fullscreen)
+        this->window = new sf::RenderWindow(windowBounds, title, sf::Style::Fullscreen, windowSettings);
+    else
+        this->window = new sf::RenderWindow(windowBounds, title, sf::Style::Titlebar | sf::Style::Close, windowSettings);
     this->window->setFramerateLimit(framerateLimit);
     this->window->setVerticalSyncEnabled(vertSyncEnabled);
 }
