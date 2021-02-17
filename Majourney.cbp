@@ -16,10 +16,7 @@
 				<Compiler>
 					<Add option="-std=c++11" />
 					<Add option="-g" />
-					<Add directory="include" />
-					<Add directory="States" />
-					<Add directory="Entities" />
-					<Add directory="UI" />
+					<Add directory="Source" />
 				</Compiler>
 				<Linker>
 					<Add option="-static-libstdc++" />
@@ -42,10 +39,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add option="-std=c++11" />
-					<Add directory="include" />
-					<Add directory="States" />
-					<Add directory="Entities" />
-					<Add directory="UI" />
+					<Add directory="Source" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -68,21 +62,25 @@
 		<Linker>
 			<Add directory="../SFML-2.5.1/lib" />
 		</Linker>
-		<Unit filename="Entities/Entity.cpp" />
-		<Unit filename="Entities/Entity.h" />
-		<Unit filename="Entities/Player.cpp" />
-		<Unit filename="Entities/Player.h" />
-		<Unit filename="States/GameState.cpp" />
-		<Unit filename="States/GameState.h" />
-		<Unit filename="States/MainMenuState.cpp" />
-		<Unit filename="States/MainMenuState.h" />
-		<Unit filename="States/State.cpp" />
-		<Unit filename="States/State.h" />
-		<Unit filename="UI/Button.cpp" />
-		<Unit filename="UI/Button.h" />
-		<Unit filename="include/Game.h" />
-		<Unit filename="main.cpp" />
-		<Unit filename="src/Game.cpp" />
+		<Unit filename="Source/Components/MovementComponent.cpp" />
+		<Unit filename="Source/Components/MovementComponent.h" />
+		<Unit filename="Source/Entities/Entity.cpp" />
+		<Unit filename="Source/Entities/Entity.h" />
+		<Unit filename="Source/Entities/Player.cpp" />
+		<Unit filename="Source/Entities/Player.h" />
+		<Unit filename="Source/Game.cpp" />
+		<Unit filename="Source/Game.h" />
+		<Unit filename="Source/States/GameState.cpp" />
+		<Unit filename="Source/States/GameState.h" />
+		<Unit filename="Source/States/MainMenuState.cpp" />
+		<Unit filename="Source/States/MainMenuState.h" />
+		<Unit filename="Source/States/State.cpp" />
+		<Unit filename="Source/States/State.h" />
+		<Unit filename="Source/UI/Button.cpp" />
+		<Unit filename="Source/UI/Button.h" />
+		<Unit filename="Source/UI/FPSCounter.cpp" />
+		<Unit filename="Source/UI/FPSCounter.h" />
+		<Unit filename="Source/main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

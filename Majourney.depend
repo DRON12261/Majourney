@@ -678,9 +678,80 @@
 	<Entity.h>
 	<Button.h>
 
-1613229247 c:\projects\codeblocks projects\majourney\entities\player.h
+1613472636 c:\projects\codeblocks projects\majourney\entities\player.h
 	<Entity.h>
 
 1613228346 source:c:\projects\codeblocks projects\majourney\entities\player.cpp
 	"Player.h"
+
+1613477136 source:c:\projects\codeblocks projects\majourney\source\entities\entity.cpp
+	"Entity.h"
+
+1613477081 c:\projects\codeblocks projects\majourney\source\entities\entity.h
+	<Components/MovementComponent.h>
+
+1613543015 source:c:\projects\codeblocks projects\majourney\source\entities\player.cpp
+	"Player.h"
+
+1613476168 c:\projects\codeblocks projects\majourney\source\entities\player.h
+	<Entities/Entity.h>
+
+1613223755 source:c:\projects\codeblocks projects\majourney\source\game.cpp
+	"Game.h"
+
+1613473314 c:\projects\codeblocks projects\majourney\source\game.h
+	<States/MainMenuState.h>
+
+1613540273 c:\projects\codeblocks projects\majourney\source\states\mainmenustate.h
+	<States/GameState.h>
+	<UI/Button.h>
+
+1613473325 c:\projects\codeblocks projects\majourney\source\states\gamestate.h
+	<States/State.h>
+
+1613473371 c:\projects\codeblocks projects\majourney\source\states\state.h
+	<Entities/Player.h>
+
+1613546162 c:\projects\codeblocks projects\majourney\source\ui\button.h
+	<Entities/Entity.h>
+
+1613476789 source:c:\projects\codeblocks projects\majourney\source\states\gamestate.cpp
+	"GameState.h"
+
+1613547025 source:c:\projects\codeblocks projects\majourney\source\states\mainmenustate.cpp
+	"MainMenuState.h"
+
+1613225894 source:c:\projects\codeblocks projects\majourney\source\states\state.cpp
+	"State.h"
+
+1613546646 source:c:\projects\codeblocks projects\majourney\source\ui\button.cpp
+	"Button.h"
+
+1613540267 c:\projects\codeblocks projects\majourney\source\components\movementcomponent.h
+	<UI/FPSCounter.h>
+
+1613542882 source:c:\projects\codeblocks projects\majourney\source\components\movementcomponent.cpp
+	"MovementComponent.h"
+
+1613473747 source:c:\projects\codeblocks projects\majourney\source\main.cpp
+	<Game.h>
+
+1613541220 c:\projects\codeblocks projects\majourney\source\ui\fpscounter.h
+	<iostream>
+	<cmath>
+	<cstdlib>
+	<fstream>
+	<sstream>
+	<vector>
+	<stack>
+	<map>
+	<stddef.h>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<SFML/Network.hpp>
+
+1613541449 source:c:\projects\codeblocks projects\majourney\source\ui\fpscounter.cpp
+	"FPSCounter.h"
 
