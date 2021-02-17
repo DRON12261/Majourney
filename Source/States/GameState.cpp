@@ -1,5 +1,6 @@
 #include "GameState.h"
 
+//{Initializtion}
 void GameState::initKeybinds()
 {
     std::ifstream ifs("Config/gameStateKeybinds.ini");
@@ -31,7 +32,9 @@ void GameState::initPlayers()
 {
     this->player = new Player(0, 0, this->textures["PLAYER_IDLE"]);
 }
+//}
 
+//{Constructor and Destructor}
 GameState::GameState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states) : State(window, supportedKeys, states)
 {
     this->initKeybinds();
@@ -43,8 +46,9 @@ GameState::~GameState()
 {
     delete this->player;
 }
+//}
 
-//Functions
+//{Functions}
 void GameState::updateKeybinds(const float& dt)
 {
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this->keybinds.at("MOVE_LEFT"))))
@@ -86,3 +90,4 @@ void GameState::render(sf::RenderTarget* target)
 
     this->player->render(target);
 }
+//}

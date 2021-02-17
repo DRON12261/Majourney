@@ -1,5 +1,6 @@
 #include "MovementComponent.h"
 
+//{Constructor and Destructor}
 MovementComponent::MovementComponent(sf::Sprite& sprite,
     float maxVelocity, float acceleration, float deceleration)
     : sprite(sprite), maxVelocity(maxVelocity), acceleration(acceleration), deceleration(deceleration)
@@ -11,12 +12,16 @@ MovementComponent::~MovementComponent()
 {
 
 }
+//}
 
+//{Accessors}
 const sf::Vector2f& MovementComponent::getVelocity() const
 {
     return this->velocity;
 }
+//}
 
+//{Functions}
 void MovementComponent::move(const float dirX, const float dirY, const float& dt)
 {
     //Acceleration
@@ -68,3 +73,4 @@ void MovementComponent::update(const float& dt)
     //Final move
     this->sprite.move(this->velocity * dt);
 }
+//}

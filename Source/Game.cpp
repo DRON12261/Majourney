@@ -2,7 +2,7 @@
 
 //Static functions
 
-//Initializer functions
+//{Initialization}
 void Game::initVariables()
 {
     this->window = NULL;
@@ -72,7 +72,10 @@ void Game::initStates()
 {
     this->states.push(new MainMenuState(this->window, &this->supportedKeys, &this->states));
 }
-//Constructor/destructor
+//}
+
+//{Constructor and Destructor}
+
 Game::Game()
 {
     this->initWindow();
@@ -90,13 +93,16 @@ Game::~Game()
         this->states.pop();
     }
 }
-
-//Functions
+//}
+//{Functions}
+//{Regular}
 void Game::endApplication()
 {
     std::cout << "Ending Application!\n";
 }
+//}
 
+//{Update}
 void Game::updateDt()
 {
     this->dt = this->dtClock.restart().asSeconds();
@@ -136,7 +142,9 @@ void Game::update()
         this->window->close();
     }
 }
+//}
 
+//{Render}
 void Game::render()
 {
     this->window->clear();
@@ -149,7 +157,9 @@ void Game::render()
 
     this->window->display();
 }
+//}
 
+//{Core}
 void Game::run()
 {
     while (this->window->isOpen())
@@ -159,3 +169,6 @@ void Game::run()
         this->render();
     }
 }
+//}
+//}
+//}

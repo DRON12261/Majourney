@@ -62,6 +62,8 @@
 		<Linker>
 			<Add directory="../SFML-2.5.1/lib" />
 		</Linker>
+		<Unit filename="Source/Components/AnimationComponent.cpp" />
+		<Unit filename="Source/Components/AnimationComponent.h" />
 		<Unit filename="Source/Components/MovementComponent.cpp" />
 		<Unit filename="Source/Components/MovementComponent.h" />
 		<Unit filename="Source/Entities/Entity.cpp" />

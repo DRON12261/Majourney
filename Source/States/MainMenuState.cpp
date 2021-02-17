@@ -1,5 +1,6 @@
 #include "MainMenuState.h"
 
+//{Initialization}
 void MainMenuState::initVariables()
 {
     this->fpsCounter = NULL;
@@ -59,7 +60,9 @@ void MainMenuState::initButtons()
         sf::Color(70, 70, 70, 200), sf::Color(250, 250, 250, 250), sf::Color(20, 20, 20, 50),
         sf::Color(70, 70, 70, 20), sf::Color(150, 150, 150, 20), sf::Color(20, 20, 20, 20));
 }
+//}
 
+//{Constructor and Destructor}
 MainMenuState::MainMenuState(sf::RenderWindow* window, std::map<std::string, int>* supportedKeys, std::stack<State*>* states) : State(window, supportedKeys, states)
 {
     this->initVariables();
@@ -78,8 +81,9 @@ MainMenuState::~MainMenuState()
         delete i->second;
     }
 }
+//}
 
-//Functions
+//{Functions}
 void MainMenuState::updateKeybinds(const float& dt)
 {
 
@@ -141,3 +145,4 @@ void MainMenuState::render(sf::RenderTarget* target)
 //    mouseText.setString(ss.str());
 //    target->draw(mouseText);
 }
+//}

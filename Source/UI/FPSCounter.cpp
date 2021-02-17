@@ -1,5 +1,6 @@
 #include "FPSCounter.h"
 
+//{Constructor and Destructor}
 FPSCounter::FPSCounter(sf::Font& font)
 {
     this->time2 = this->clock.getElapsedTime();
@@ -15,12 +16,16 @@ FPSCounter::~FPSCounter()
 {
 
 }
+//}
 
+//{Accessors}
 const int& FPSCounter::getFramerate() const
 {
     return this->Framerate;
 }
+//}
 
+//{Functions}
 void FPSCounter::update()
 {
     this->time1 = this->clock.getElapsedTime();
@@ -39,3 +44,4 @@ void FPSCounter::render(sf::RenderTarget* target)
     }
     target->draw(this->text);
 }
+//}

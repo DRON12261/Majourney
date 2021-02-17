@@ -1,12 +1,14 @@
 #ifndef GAME_H
 #define GAME_H
 
+//{Includes}
 #include <States/MainMenuState.h>
+//}
 
 class Game
 {
 private:
-    //Variables
+    //{Variables}
     sf::RenderWindow *window;
     sf::Event sfEvent;
     std::vector<sf::VideoMode> videoModes;
@@ -19,32 +21,39 @@ private:
     std::stack<State*> states;
 
     std::map<std::string, int> supportedKeys;
+    //}
 
-    //Initialization
+    //{Initialization}
     void initVariables();
     void initWindow();
     void initKeys();
     void initStates();
-
+    //}
 public:
+    //{Constructor and Destructor}
     Game();
     virtual ~Game();
+    //}
 
-    //Functions
-
-    //Regualr
+    //{Functions}
+    //{Regular}
     void endApplication();
+    //}
 
-    //Update
+    //{Update}
     void updateDt();
     void updateSFMLEvents();
     void update();
+    //}
 
-    //Render
+    //{Render}
     void render();
+    //}
 
-    //Core
+    //{Core}
     void run();
+    //}
+    //}
 };
 
 #endif
